@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px black;
+} 
