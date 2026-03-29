@@ -1,14 +1,19 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
-import Herosection from './Components/Herosection'
-import Banner from './Components/Banner'
+import { Routes,Route } from 'react-router-dom'
+import Shop from './Components/Shop' 
 
 const App = () => {
   return (
-    <div className='h-full'>
+    <div className='h-full'> 
       <Navbar/>
-      <Herosection/> 
-      <Banner/>
+      <Routes>
+        <Route path='/' element={<Shop/>}/>
+        {/* <Route path='/men' element={<Men/>}/> 
+        <Route path='/women' element={<Women/>}/>
+        <Route path='/kids' element={<Kids/>}/> */}
+        {/* <Route path='/cart' element={<Cart/>}/> */} 
+      </Routes>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import Heroimage from "../Images/hero-image.png"
 import { FaMapMarkerAlt, FaTruck } from 'react-icons/fa'
 
-const Herosection = () => {
+const HeroSection = () => { 
   return (
     <div className='bg-linear-to-r from-pink-400 to-pink-300 lg:h-125 max-w-[95%] mx-auto mt-4 flex flex-col lg:flex-row items-center justify-between 
     shadow-[0_10px_40px_rgba(236,72,153,0.35)] rounded-2xl p-4 sm:p-6 lg:p-6'>
@@ -12,7 +12,7 @@ const Herosection = () => {
        <h1 className='text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-playfair tracking-wide leading-[1.05]'>EVERY TIME.</h1>
        <p className='mt-4 text-white/90 text-sm sm:text-base md:text-lg lg:text-xl'>Discover fashion that reflects who you truly are.</p>
        <p className='text-white/90 text-sm sm:text-base md:text-lg lg:text-xl'>Shop Styles You'll Love to Live In.</p> 
-       <button className="mt-6 px-7 py-3 sm:px-6 sm:py-3  bg-black text-white rounded-full hover:bg-gray-800 transition-all duration-300">
+       <button className="mt-6 px-7 py-3 sm:px-6 sm:py-3  bg-black text-white rounded-full transition-all duration-300 hover:drop-shadow-md active:scale-95 hover:scale-105">
          Explore Now 
        </button> 
       </div>
@@ -46,4 +46,4 @@ const Herosection = () => {
   )
 }
 
-export default Herosection 
+export default HeroSection 
