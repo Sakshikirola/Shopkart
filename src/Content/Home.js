@@ -8,10 +8,10 @@ import img7 from "../Images/img7.jpg";
 import img8 from "../Images/img8.jpg";
 import img9 from "../Images/img9.jpg";
 import img10 from "../Images/img10.jpg"; 
-
+ 
 const products = [
   {
-    id: 1,
+    id: 1, 
     title: "Short Stylish Kurti", 
     price: 49.99,
     category: "Kurti",
@@ -92,4 +92,5 @@ const products = [
   } 
 ];
 
-export default products;
+export default products; 
+

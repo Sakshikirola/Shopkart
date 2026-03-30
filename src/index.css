@@ -7,3 +7,7 @@
 .text-stroke {
   -webkit-text-stroke: 1px black;
 } 
+
+.hide-scrollbar::-webkit-scrollbar{
+  display: none; 
+}
