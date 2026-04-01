@@ -2,12 +2,12 @@ import React from 'react'
 import Bag from '../Images/Bag.png' 
 import { motion } from 'framer-motion'
                           
-const Banner = () => {
+const Banner = () => { 
   return (  
     <motion.div
     initial={{ opacity: 0, y: 60 }}
     whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.7, ease: "easeOut" }}  
+    transition={{ duration: 0.8, ease: "easeOut" }}  
     viewport={{ once: false }} 
     className='flex flex-row items-center mx-auto mt-6 max-w-[95%] rounded-2xl overflow-hidden 
     bg-linear-to-r from-gray-800 via-black to-gray-800 py-1 px-4 sm:px-6 md:px-8 gap-6 sm:gap-10 md:gap-8'> 

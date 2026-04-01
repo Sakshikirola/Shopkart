@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
+*::-webkit-scrollbar{
+  display: none;
+}
+
 .font-playfair {
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Playfair Display', serif;  
 } 
 
 .text-stroke {

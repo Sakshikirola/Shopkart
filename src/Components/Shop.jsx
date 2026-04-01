@@ -3,6 +3,7 @@ import HeroSection from './Herosection'
 import Banner from './Banner' 
 import Cards from './Cards'
 import ScrollableCards from './ScrollableCards'
+import Newsletter from './Newsletter'
 
 const Shop = () => {
   return ( 
@@ -11,6 +12,7 @@ const Shop = () => {
       <Banner/> 
       <Cards/>
       <ScrollableCards/>
+      <Newsletter/>
     </div>
   )
 } 

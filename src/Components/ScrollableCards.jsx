@@ -16,8 +16,8 @@ const ScrollableCards = () => {
         These picks are trending everywhere — don't miss out. 
       </p>
       <motion.div
-      initial={{ opacity: 0, y: 60 }}
-     whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, y: 60 }} 
+     whileInView={{ opacity: 1, y: 0 }} 
      transition={{ duration: 1, ease: "easeOut" }}  
      viewport={{ once: false }}  
       className="w-full px-6 py-6 bg-linear-to-r from-gray-800 via-black to-gray-800 rounded-xl">  
