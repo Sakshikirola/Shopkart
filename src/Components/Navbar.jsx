@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Navbar = () => {
 
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false) 
 
   return (
     <div className='w-full px:6 md:px-8 py flex justify-between items-center'> 

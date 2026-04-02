@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import imagesData from "../Content/Featured";
+import imagesData from "../Content/Featured"; 
 
 const ScrollableCards = () => { 
   return (

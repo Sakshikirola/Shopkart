@@ -1,16 +1,23 @@
-import card1 from "../Images/card1.jpg";
-import card2 from "../Images/card2.jpg";
-import card3 from "../Images/card3.jpg";
-import card4 from "../Images/card4.jpg";
-import card5 from "../Images/card5.jpg";
-
-const Newsletter = () => {
-  return (
-    <div className='flex flex-col lg:flex-row gap-10 mt-14 mx-auto max-w-[95%] items-center'>
+import card1 from "../Images/card1.jpg";  
+import card2 from "../Images/card2.jpg"; 
+import card3 from "../Images/card3.jpg"; 
+import card4 from "../Images/card4.jpg"; 
+import card5 from "../Images/card5.jpg"; 
+import { motion } from 'framer-motion'
+     
+const Newsletter = () => { 
+  return ( 
+    <motion.div  
+    initial={{ opacity: 0, y: 60 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1.2, ease: "easeOut" }}   
+    viewport={{ once: false }}  
+    className='flex flex-col lg:flex-row gap-10 mt-14 mx-auto max-w-[95%] items-center'
+    >
       
       {/* Newsletter */}
       <div className='w-full lg:w-[50%] bg-black p-6 md:p-8 rounded-2xl'>
-         <h2 className='text-white text-xl md:text-2xl font-bold'>
+         <h2 className='text-white text-xl md:text-2xl font-bold'> 
             Unlock Exclusive Deals & Offers
          </h2>
          <p className="text-gray-400 mt-2 text-sm md:text-base">
@@ -18,7 +25,7 @@ const Newsletter = () => {
         </p>
         <input type="email" placeholder='Enter your email'
         className="w-full mt-4 p-3 rounded-lg bg-gray-800 text-white outline-none"
-        />
+        /> 
         <button className="w-full mt-4 bg-pink-500 py-3 rounded-lg text-white font-semibold hover:bg-pink-600 transition"> 
           Subscribe
         </button>
@@ -51,7 +58,7 @@ const Newsletter = () => {
  
         </div> 
       </div>
-    </div>
+    </motion.div>
   )
 }
 
